@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:paddingLeft="8dp"
+              android:paddingRight="8dp"
+        >
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Gson"
+            />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Object to JSON"
+            android:id="@+id/btn_encode"
+            android:onClick="onClick"
+            android:layout_marginTop="5dp"
+            android:padding="12dp"
+            android:layout_gravity="center_horizontal"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JSON to Object"
+            android:id="@+id/btn_decode"
+            android:onClick="onClick"
+            android:layout_marginTop="2dp"
+            android:padding="12dp"
+            android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
+
