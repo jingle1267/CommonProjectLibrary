@@ -10,7 +10,7 @@ import de.greenrobot.event.EventBus;
 
 /**
  * EventBus demo
- *
+ * <p/>
  * Created by zhenguo on 5/19/15.
  */
 public class EventBusDemoActivity extends Activity {
@@ -51,12 +51,12 @@ public class EventBusDemoActivity extends Activity {
     }
 
     // This method will be called when a MessageEvent is posted
-    public void onEvent(MessageEvent event){
+    public void onEvent(MessageEvent event) {
         Toast.makeText(this, event.message, Toast.LENGTH_SHORT).show();
     }
 
     // This method will be called when a SomeOtherEvent is posted
-    public void onEvent(SomeOtherEvent event){
+    public void onEvent(SomeOtherEvent event) {
         // doSomethingWith(event);
         Toast.makeText(this, "SomeOtherEvent", Toast.LENGTH_SHORT).show();
     }

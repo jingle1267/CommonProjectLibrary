@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 /**
  * Gson demo
- *
+ * <p/>
  * Created by zhenguo on 5/19/15.
  */
 public class GsonDemoActivity extends Activity {

@@ -5,7 +5,7 @@
 
 [Gson-2.3.1](https://github.com/google/gson)
 
-[Retrofit-1.9.0](https://github.com/square/retrofit)
+[Volley-1.0.16](https://github.com/mcxiaoke/android-volley)
 
 [Glide-3.6.0](https://github.com/bumptech/glide)
 

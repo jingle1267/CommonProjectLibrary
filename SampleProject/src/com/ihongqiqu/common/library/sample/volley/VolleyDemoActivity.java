@@ -49,13 +49,13 @@ public class VolleyDemoActivity extends Activity {
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-                        Log.d("TAG", "Velloy : " + response);
+                        Log.d("TAG", "Volley : " + response);
                         Toast.makeText(VolleyDemoActivity.this, "response : " + response, Toast.LENGTH_SHORT).show();
                     }
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Log.e("TAG", "Velloy : " + error.getMessage(), error);
+                Log.e("TAG", "Volley : " + error.getMessage(), error);
                 Toast.makeText(VolleyDemoActivity.this, "error : " + error.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
@@ -69,16 +69,17 @@ public class VolleyDemoActivity extends Activity {
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-                        Log.d("TAG", "Velloy : " + response);
+                        Log.d("TAG", "Volley : " + response);
                         Toast.makeText(VolleyDemoActivity.this, "response : " + response, Toast.LENGTH_SHORT).show();
                     }
-                }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                Log.e("TAG", "Velloy : " + error.getMessage(), error);
-                Toast.makeText(VolleyDemoActivity.this, "error : " + error.getMessage(), Toast.LENGTH_SHORT).show();
-            }
-        }) {
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Log.e("TAG", "Volley : " + error.getMessage(), error);
+                        Toast.makeText(VolleyDemoActivity.this, "error : " + error.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                }) {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> map = new HashMap<String, String>();
