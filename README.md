@@ -1,5 +1,5 @@
 # CommonProjectLibrary
-## 通用项目Library ## 
+## 通用项目Library
 
 [EventBus-2.4.0](https://github.com/greenrobot/EventBus)
 
@@ -9,7 +9,7 @@
 
 [Glide-3.6.0](https://github.com/bumptech/glide)
 
-## ProGuard configuration ## 
+## ProGuard configuration 
 
   If you are using Proguard in your project add the following lines to your configuration:
 
@@ -24,11 +24,14 @@
     <init>(java.lang.Throwable);
 }
 
-######## Retrofit ########
--dontwarn retrofit.**
--keep class retrofit.** { *; }
--keepattributes Signature
--keepattributes Exceptions
+######## Volley ########
+-keep class com.android.volley.** {*;}
+-keep class com.android.volley.toolbox.** {*;}
+-keep class com.android.volley.Response$* { *; }
+-keep class com.android.volley.Request$* { *; }
+-keep class com.android.volley.RequestQueue$* { *; }
+-keep class com.android.volley.toolbox.HurlStack$* { *; }
+-keep class com.android.volley.toolbox.ImageLoader$* { *; }
 
 ######## Gson ########
 -keep class sun.misc.Unsafe { *; }

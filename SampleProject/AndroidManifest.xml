@@ -18,7 +18,7 @@
         <activity android:name=".glide.GlideDemoActivity"
                   android:label="@string/app_name">
         </activity>
-        <activity android:name=".retrofit.RetrofitDemoActivity"
+        <activity android:name=".volley.VolleyDemoActivity"
                   android:label="@string/app_name">
         </activity>
         <activity android:name=".gson.GsonDemoActivity"

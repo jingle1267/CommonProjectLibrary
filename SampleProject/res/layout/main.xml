@@ -50,8 +50,8 @@
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Retrofit Demo"
-            android:id="@+id/btn_retrofit"
+            android:text="Volley Demo"
+            android:id="@+id/btn_volley"
             android:onClick="onClick"
             android:layout_marginTop="2dp"
             android:padding="12dp"

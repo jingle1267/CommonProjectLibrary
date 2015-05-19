@@ -7,7 +7,7 @@ import com.ihongqiqu.common.library.sample.R;
 import com.ihongqiqu.common.library.sample.eventbus.EventBusDemoActivity;
 import com.ihongqiqu.common.library.sample.glide.GlideDemoActivity;
 import com.ihongqiqu.common.library.sample.gson.GsonDemoActivity;
-import com.ihongqiqu.common.library.sample.retrofit.RetrofitDemoActivity;
+import com.ihongqiqu.common.library.sample.volley.VolleyDemoActivity;
 
 public class MainActivity extends Activity {
     /**
@@ -30,8 +30,8 @@ public class MainActivity extends Activity {
             case R.id.btn_gson:
                 GsonDemoActivity.launch(this);
                 break;
-            case R.id.btn_retrofit:
-                RetrofitDemoActivity.launch(this);
+            case R.id.btn_volley:
+                VolleyDemoActivity.launch(this);
                 break;
         }
     }
