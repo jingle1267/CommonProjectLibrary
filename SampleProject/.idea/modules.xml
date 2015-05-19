@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../CommonLibaray/CommonLibaray.iml" filepath="$PROJECT_DIR$/../CommonLibaray/CommonLibaray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CommonLibrary/CommonLibrary.iml" filepath="$PROJECT_DIR$/../CommonLibrary/CommonLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/SampleProject.iml" filepath="$PROJECT_DIR$/SampleProject.iml" />
     </modules>
   </component>

@@ -3,11 +3,59 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
+              android:paddingLeft="8dp"
+              android:paddingRight="8dp"
         >
+
     <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World, MainActivity"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Demos"
             />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EventBus Demo"
+            android:id="@+id/btn_eventbus"
+            android:onClick="onClick"
+            android:layout_marginTop="5dp"
+            android:padding="12dp"
+            android:layout_gravity="center_horizontal"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Glide Demo"
+            android:id="@+id/btn_glide"
+            android:onClick="onClick"
+            android:layout_marginTop="2dp"
+            android:padding="12dp"
+            android:layout_gravity="center_horizontal"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gson Demo"
+            android:id="@+id/btn_gson"
+            android:onClick="onClick"
+            android:layout_marginTop="2dp"
+            android:padding="12dp"
+            android:layout_gravity="center_horizontal"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Retrofit Demo"
+            android:id="@+id/btn_retrofit"
+            android:onClick="onClick"
+            android:layout_marginTop="2dp"
+            android:padding="12dp"
+            android:layout_gravity="center_horizontal"/>
+
 </LinearLayout>
 
