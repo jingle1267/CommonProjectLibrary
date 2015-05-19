@@ -14,27 +14,23 @@
             android:textSize="20sp"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Volley"
+            android:text="Glide"
             />
 
-    <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Get Request"
-            android:id="@+id/btn_get"
-            android:onClick="onClick"
+    <ImageView
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:id="@+id/img_first"
+            android:src="@drawable/ic_launcher"
             android:layout_marginTop="5dp"
-            android:padding="12dp"
             android:layout_gravity="center_horizontal"/>
 
-    <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Post Request"
-            android:id="@+id/btn_post"
-            android:onClick="onClick"
-            android:layout_marginTop="2dp"
-            android:padding="12dp"
+    <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/img_second"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_launcher"
             android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>
