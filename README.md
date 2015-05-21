@@ -9,6 +9,10 @@
 
 [Glide-3.6.0](https://github.com/bumptech/glide)
 
+[ButterKnife-6.1.0](https://github.com/JakeWharton/butterknife)
+
+[android-support-annotations](#)
+
 ## ProGuard configuration 
 
   If you are using Proguard in your project add the following lines to your configuration:
@@ -44,6 +48,19 @@
 -keep public enum com.bumptech.glide.load.resource.bitmap.ImageHeaderParser$** {
     **[] $VALUES;
     public *;
+}
+
+######## ButterKnife ########
+-keep class butterknife.** { *; }
+-dontwarn butterknife.internal.**
+-keep class **$$ViewInjector { *; }
+
+-keepclasseswithmembernames class * {
+    @butterknife.* <fields>;
+}
+
+-keepclasseswithmembernames class * {
+    @butterknife.* <methods>;
 }
 
 ```
