@@ -11,8 +11,6 @@
 
 [ButterKnife-6.1.0](https://github.com/JakeWharton/butterknife)
 
-[android-support-annotations](#)
-
 ## ProGuard configuration 
 
   If you are using Proguard in your project add the following lines to your configuration:

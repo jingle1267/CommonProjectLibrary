@@ -4,12 +4,14 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import com.ihongqiqu.common.library.sample.R;
+import com.ihongqiqu.common.library.sample.butterknife.ButterKnifeDemoActivity;
 import com.ihongqiqu.common.library.sample.eventbus.EventBusDemoActivity;
 import com.ihongqiqu.common.library.sample.glide.GlideDemoActivity;
 import com.ihongqiqu.common.library.sample.gson.GsonDemoActivity;
 import com.ihongqiqu.common.library.sample.volley.VolleyDemoActivity;
 
 public class MainActivity extends Activity {
+
     /**
      * Called when the activity is first created.
      */
@@ -32,6 +34,9 @@ public class MainActivity extends Activity {
                 break;
             case R.id.btn_volley:
                 VolleyDemoActivity.launch(this);
+                break;
+            case R.id.btn_butterknife:
+                ButterKnifeDemoActivity.launch(this);
                 break;
         }
     }
