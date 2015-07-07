@@ -11,6 +11,18 @@
 
 [ButterKnife-6.1.0](https://github.com/JakeWharton/butterknife)
 
+## Sample
+
+[EventBus-2.4.0](https://github.com/jingle1267/CommonProjectLibrary/blob/master/SampleProject/src/com/ihongqiqu/common/library/sample/eventbus/EventBusDemoActivity.java)
+
+[Gson-2.3.1](https://github.com/jingle1267/CommonProjectLibrary/blob/master/SampleProject/src/com/ihongqiqu/common/library/sample/gson/GsonDemoActivity.java)
+
+[Volley-1.0.16](https://github.com/jingle1267/CommonProjectLibrary/blob/master/SampleProject/src/com/ihongqiqu/common/library/sample/volley/VolleyDemoActivity.java)
+
+[Glide-3.6.0](https://github.com/jingle1267/CommonProjectLibrary/blob/master/SampleProject/src/com/ihongqiqu/common/library/sample/glide/GlideDemoActivity.java)
+
+[ButterKnife-6.1.0](https://github.com/jingle1267/CommonProjectLibrary/blob/master/SampleProject/src/com/ihongqiqu/common/library/sample/butterknife/ButterKnifeDemoActivity.java)
+
 ## ProGuard configuration 
 
   If you are using Proguard in your project add the following lines to your configuration:
